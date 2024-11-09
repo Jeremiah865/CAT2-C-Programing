@@ -1,7 +1,8 @@
-#include<stdio>
+#include<stdio.h>
 int main (){
     float hours_worked,hourly_wage,gross_pay,taxes,net_pay;
-
+    
+    //prompt the user to enter values
     printf("enter hours worked in a week:");
     scanf("%f", &hours_worked);
 
